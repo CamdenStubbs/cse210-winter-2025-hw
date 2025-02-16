@@ -45,7 +45,7 @@ class Word
         else 
         {
             Console.Write(" _");
-            for (int i = 1;i < _wordText.Length; i++)
+            for (int i = 1;i < _wordText.Length - 1; i++)
             {
                 Console.Write("_");
             }

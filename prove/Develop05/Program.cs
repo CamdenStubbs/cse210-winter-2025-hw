@@ -11,7 +11,7 @@ class Program
         {
             Console.WriteLine($"\nTotal Points: {goalManager.GetTotalPoints()}");
             Console.WriteLine("\nPlease enter an integer to choose an option:\n");
-            Console.WriteLine("0: Quit\n1: Create Goal\n2: List Goals\n3: Record Goal Progress\n4: Save Goal List\n5: Load Goal List");
+            Console.WriteLine("0: Quit\n1: Create Goal\n2: List Goals\n3: Record Goal Progress\n4: Save Goal List\n5: Load Goal List\n6: Remove Goal\n");
             int userInput = int.Parse(Console.ReadLine());
             if (userInput == 0)
             {

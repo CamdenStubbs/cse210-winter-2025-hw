@@ -36,11 +36,11 @@ class ChecklistGoal : Goal
     {
         if (GetComplete() != true)
         {
-            Console.WriteLine($"({GetPoints()} points) ({_bonusPoints} bonus points) {GetTitle()}: {GetDescription()} [] (0/{_desiredAmount})");
+            Console.WriteLine($"({GetPoints()} points) ({_bonusPoints} bonus points) {GetTitle()}: {GetDescription()} [] (0/{_desiredAmount} Completed)");
         }
         else
         {
-            Console.WriteLine($"({GetPoints()} points) ({_bonusPoints} bonus points) {GetTitle()}: {GetDescription()} [X] ({_completedAmount}/{_desiredAmount})");
+            Console.WriteLine($"({GetPoints()} points) ({_bonusPoints} bonus points) {GetTitle()}: {GetDescription()} [X] ({_completedAmount}/{_desiredAmount} Completed)");
         }
     }
 
